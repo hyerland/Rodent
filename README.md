@@ -1,5 +1,2 @@
-<a align="center">
-<h1>Rodent 🧀</h1>
-<p>Free, open-source discord bot with advanced customization.</p>
-
-</a>
+<h1 align="center">Rodent 🧀</h1>
+<p align="center">Free, open-source discord bot with advanced customization.</p>
