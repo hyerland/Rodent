@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft-07/schema",
-    "$id": "",
+    "$id": "https://raw.githubusercontent.com/hyerland/Rodent/main/json/metadata-schema.json",
     "title": "Addon metadata",
 
     "properties": {
