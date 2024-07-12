@@ -1,0 +1,10 @@
+{
+    "api": ".",
+    "client": {
+        "token": ".",
+        "activity": "with Rodent Framework"
+    },
+    "settings": {
+        "extended_logs": false
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "$schema": "https://json-schema.org/draft-07/schema",
+    "$id": "https://raw.githubusercontent.com/hyerland/Rodent/main/json/templates/rodent-template.json",
+    "title": "Rodent Template",
+
+    "properties": {
+        "client": {
+            "type": "array",
+            "properties": {
+                "token": {
+                    "type": "string",
+                    "description": "The token of the bot"
+                },
+                "activity": {
+                    "type": "string",
+                    "description": "The status of the activity"
+                }
+            }
+        },
+
+        "settings": {
+            "type": "array",
+            "properties": {
+                "extended_logs": {
+                    "type": "boolean",
+                    "description": "Enable or disable extended logs"
+                }
+            }
+        }
+    }
+}
