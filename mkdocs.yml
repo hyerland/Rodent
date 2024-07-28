@@ -1,0 +1,98 @@
+site_name: Rodent
+site_url: https://hyerland.github.io/rodent
+copyright: Copyright &copy; 2024 Adam Garza
+
+repo_name: hyerland/rodent
+repo_url: https://github.com/hyerland/rodent
+
+edit_uri: edit/main/docs/
+
+nav:
+  - Home: index.md
+  - Guides:
+    - Getting Started: guides/getting-started.md
+    - Addons:
+      - guides/addons/index.md
+  - Newsroom:
+    - blog/index.md
+
+theme:
+  name: material
+  language: en
+
+  custom_dir: overrides
+
+  logo: assets/logo.svg
+  favicon: assets/favicon.ico
+
+  font:
+    text: Roboto
+    code: JetBrains Mono
+
+  palette:
+    scheme: slate
+    primary: orange
+    accent: deep orange
+
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.prune
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.action.edit
+    - content.action.view
+
+  icon:
+    repo: fontawesome/brands/github
+    tag:
+      web: fontawesome/brands/html5
+    admonition:
+      note: fontawesome/solid/note-sticky
+      abstract: fontawesome/solid/book
+      info: fontawesome/solid/circle-info
+      tip: fontawesome/solid/bullhorn
+      success: fontawesome/solid/check
+      question: fontawesome/solid/circle-question
+      warning: fontawesome/solid/triangle-exclamation
+      failure: fontawesome/solid/bomb
+      danger: fontawesome/solid/skull
+      bug: fontawesome/solid/robot
+      example: fontawesome/solid/flask
+      quote: fontawesome/solid/quote-left
+
+
+plugins:
+  - search
+  - blog:
+      post_readtime: true
+  - tags
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-committers:
+      repository: hyerland/rodent
+      branch: main
+
+extra:
+  tags:
+    Website: web
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/hyerland
+      name: View my other projects!
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg

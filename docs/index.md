@@ -1,30 +1,19 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
-layout: home
+# title: Homepage
+# description: The homepage of the century!
+icon: material/home
 
-hero:
-  name: "Rodent"
-  text: "Bot Framework"
-  tagline: Free, open-source discord bot with advanced customization.
-
-  actions:
-    - theme: brand
-      text: Get started
-      link: /guides
-  
-  image:
-    src: /hero.png
-    alt: Cheese
-
-features:
-  - title: 100% Open source and free
-    icon: 📈
-    details: Rodent is developed and maintained by the community allowing for the project to thrive, and be 100% free.
-  - title: Advanced customization with simplicity
-    icon: 🏆
-    details: Rodent brings you advanced customization which allows you to customize almost 90% of the bot with a simple configuration.
+hide:
+  - navigation
+  - toc
 ---
-:::warning Active Development 🖥️
-**Rodent Framework** is currently in development and **certain features and pages** will have <Badge type="danger" text="experimental" /> badge.
-**Any contributions** during this stage of development will be much appreciated. 💖
-:::
+# Rodent
+
+Welcome to **Rodent Framework 👋**
+
+Rodent is a **discord bot framework** which bring a **simple, yet powerful 🚀 advanced customization 🏆** to a market full of simple basic customization being completely locked or by either paywalls or subscriptions. *Not cool.*
+
+Rodent is also completely **open-source and free, forever** in which anyone could freely change or adjust.
+
+!!! warning
+    Rodent is still under heavy development and many bugs, features, and more may be scrapped, changed, and or left as is until v1 release.
