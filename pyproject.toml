@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "rodent-bot"
+version = "0.1.0"
+description = "Free, open-source discord bot with advanced customization."
+authors = ["Adam Garza"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "rodent", from = "src" }
+]
+
+[tool.poetry.scripts]
+rodent = "rodent.manage:app"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+discord-py = "^2.4.0"
+rich = "^13.7.1"
+typer = {extras = ["all"], version = "^0.12.3"}
+jsonschema = "^4.23.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.5.1"
+
+
+[tool.poetry.group.docs.dependencies]
+mkdocs-material = "^9.5.30"
+mkdocs-git-revision-date-localized-plugin = "^1.2.6"
+mkdocs-git-committers-plugin-2 = "^2.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
